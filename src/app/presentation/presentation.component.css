@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2vw;
+    gap: 70px;
+    margin-top: 40px;
+    background-color: #5ce1e694;
+    padding-bottom: 5vw;
+}
+
+.main-heading{
+    font-size: 2.5vw;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #053689;
+    padding-top: 20px;
+}
+
+.video-heading{
+    font-size: 2.5vw;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #053689;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.video{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 80px;
+    column-gap: 80px;
+}
